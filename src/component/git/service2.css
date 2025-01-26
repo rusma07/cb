@@ -1,0 +1,100 @@
+.flexbox {
+    /* From https://css.glass */
+    margin-top: -80px;
+    
+margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    width: 1000px;
+    padding: 0px;
+
+}
+#p{
+    margin-top: -40px;
+    margin-right: 10px;
+    border: 0.5px solid rgb(12, 12, 12);
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+h1 {
+    text-shadow: 2px 2px 2px rgb(150, 117, 117);
+    margin-left: 500px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    height: 70px;
+    width: 500px;
+}
+button{
+    font-size: 15px;
+    background-color: rgb(238, 233, 233);
+    height: 50px;
+    width:110px ;
+    border: 1px solid rgba(31, 27, 27, 0.821);
+    border-radius: 60px;
+}
+
+button:hover{
+    border: 0px solid #010101;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.219),rgb(103, 103, 151));
+}
+body {
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 250, 250);
+    
+}
+h5{
+    text-align: center;
+    margin-left: 27px;
+    width: 300px;
+    font-size: 15px;
+    font-weight:normal;
+}
+p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.box1 {
+   
+    text-align: center;
+    width: 350px;
+    border: 3px solid rgba(15, 15, 16, 0.868);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.922);
+}
+
+img { 
+    padding: 2px;
+    height: 200px;
+    width: 220px;
+}
+
+.box2 {
+    text-align: center;
+    width: 350px;
+    border: 3px solid rgba(15, 15, 16, 0.868);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.922);
+}
+
+.box3 {
+    text-align: center;
+    width: 350px;
+    border: 3px solid rgba(15, 15, 16, 0.868);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.922);
+}
+.bod:hover{
+    border: 0.5px solid rgb(209, 174, 174);
+    box-shadow: 10px 10px rgba(122, 36, 36, 0.622);
+}
+.bod{  
+   margin: 20px;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+}

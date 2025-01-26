@@ -1,0 +1,72 @@
+.products .heading{
+    text-align: center;
+}
+.products .product-slider{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+    
+}
+.products .product-slider:first-child{
+    margin-bottom: 2rem;
+}
+.products .product-slider .box{
+    background: whitesmoke;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    transition: .2s linear;
+    position: relative;
+    /* box-shadow: 0 .5rem 1.5rem; */
+}
+.products .product-slider .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.products .product-slider .box img{
+    height: 20rem;
+}
+.products .product-slider .box h3{
+    font-size: large;
+    color: var(--black);
+}
+.products .product-slider .box:hover img{
+    transform: scale(1.1);
+}
+.products .product-slider .box .icons{
+    position: absolute;
+    bottom: -7rem;
+     left: 0; 
+     right: 0;
+    
+    display:none;
+}
+.products .product-slider .box:hover .icons{
+   display: flex;
+    bottom: 0;
+}
+.products .product-slider .box .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2 rem;
+    width: 50%;
+    background: var(--orange);
+    color: white;
+}
+.products .product-slider .box .icons .button{
+    border-left: .1rem solid white;
+    border-right: .1rem solid white;
+    width: 100%;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.products .product-slider .box .icons a:hover{
+    background: purple;
+}
+
